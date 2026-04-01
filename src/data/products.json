@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Harness the power of AI to generate high-quality articles, marketing copy, and emails in seconds.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Unlimited AI generations", "SEO optimization tools", "Custom brand voice"],
+    "icon": "fas fa-robot"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "A comprehensive collection of premium design templates for social media, presentations, and web.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["500+ templates", "Figma & PSD formats", "Commercial use license"],
+    "icon": "fas fa-pen-nib"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Access our massive library of high-resolution photos, illustrations, and video clips for your projects.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["10k+ new assets monthly", "Royalty-free license", "4K video downloads"],
+    "icon": "fas fa-images"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Save hours every week with pre-built automation scripts for your favorite productivity apps.",
+    "price": 39,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["100+ automation flows", "Zapier integration", "Step-by-step tutorials"],
+    "icon": "fas fa-cogs"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create a professional, ATS-optimized resume in minutes with our intuitive drag-and-drop builder.",
+    "price": 19,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["ATS-friendly templates", "AI bullet point writer", "Export to PDF & Word"],
+    "icon": "fas fa-file-alt"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Everything you need to plan, design, and schedule a month of social media content in one afternoon.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["30-day content calendar", "Caption writing guides", "Ready-to-post graphics"],
+    "icon": "fas fa-share-alt"
+  }
+]
