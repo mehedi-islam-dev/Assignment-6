@@ -1,16 +1,28 @@
-# React + Vite
+# Project Name:
+                 DigiTools - Digital Tools Buying Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+        DigiTools is a modern, responsive React application designed for purchasing premium digital tools, templates, and software solutions. It features a seamless user interface, dynamic product toggling, and a fully functional shopping cart system built with state management.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+##  Technologies Used
+        - React.js (v19)
+        - Tailwind CSS (v4)
+        - DaisyUI
+        - JavaScript (ES6+)
+        - React-Toastify
+        - Vite (v8)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Top 3 Features
+
+1.  **Dynamic Cart System:** 
+                        Users can add items, view their total cost, dynamically remove specific items, and proceed to checkout (which cleanly clears the cart).
+
+2.  **Interactive UI with Toast Notifications:** 
+                        Utilizes `react-toastify` to provide immediate, satisfying visual feedback whenever a user interacts with the cart.
+
+3.  **Smart Button Logic:**
+                        Once a product is added to the cart, its specific "Buy Now" button dynamically updates to "Added to Cart" and disables itself to prevent duplicate entries, while simultaneously updating the global cart counter in the navigation bar.
