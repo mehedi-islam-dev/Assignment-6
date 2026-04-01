@@ -6,6 +6,8 @@ import ProductCard from './components/ProductCard';
 import Cart from './components/Cart';
 import Steps from './components/Steps';
 import Pricing from './components/Pricing';
+import CTA from './components/CTA';
+import Footer from './components/Footer';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import productsData from './data/products.json';
@@ -90,6 +92,8 @@ function App() {
         <Steps />
         <Pricing />
       </main>
+      <CTA />
+      <Footer />
       <ToastContainer />
     </div>
   );
