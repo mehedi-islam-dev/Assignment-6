@@ -32,8 +32,8 @@ const Pricing = () => {
 
           {/* Pro Plan (Highlighted) */}
           <div className="bg-[#8B5CF6] text-white p-8 rounded-3xl shadow-2xl shadow-purple-200 relative transform md:-translate-y-6 border-4 border-purple-100">
-            <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 bg-yellow-400 text-yellow-900 text-xs font-bold px-4 py-1 rounded-full shadow-sm">
-              POPULAR
+            <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 bg-yellow-200 text-yellow-900 text-xs font-bold px-4 py-1 rounded-full shadow-sm">
+              Most Popular
             </div>
             <h3 className="text-xl font-bold mb-2">Pro</h3>
             <p className="text-purple-200 text-sm mb-6">For serious creators and freelancers.</p>

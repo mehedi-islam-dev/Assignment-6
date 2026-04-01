@@ -16,11 +16,15 @@ const ProductCard = ({ product, onAddToCart, inCart }) => {
       
       {/* Icon */}
       <div className="w-14 h-14 bg-slate-50 rounded-xl flex items-center justify-center text-[#8B5CF6] text-2xl mb-5 group-hover:bg-[#8B5CF6] group-hover:text-white transition-colors">
-        <i className={product.icon}></i>
+        <img 
+    src={product.icon} 
+    alt={product.name} 
+    className="w-8 h-8 object-contain" 
+  />
       </div>
       
       <h3 className="text-xl font-bold text-[#0B0F19] mb-2">{product.name}</h3>
-      <p className="text-gray-500 text-sm mb-6 flex-grow">{product.description}</p>
+      <p className="text-gray-500 text-sm mb-6 `grow`">{product.description}</p>
       
       {/* Price */}
       <div className="flex items-end gap-1 mb-6">

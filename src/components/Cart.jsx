@@ -22,7 +22,10 @@ const Cart = ({ cartItems, onRemove, onCheckout }) => {
           <div key={item.id} className="flex items-center justify-between p-4 bg-slate-50 rounded-xl border border-gray-100">
             <div className="flex items-center gap-4">
               <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center text-[#8B5CF6] shadow-sm text-xl">
-                <i className={item.icon}></i>
+                <img 
+                 src={item.icon} 
+                 alt={item.name} 
+                className="w-7 h-7 object-contain"/>
               </div>
               <div>
                 <h4 className="font-semibold text-[#0B0F19] text-lg">{item.name}</h4>

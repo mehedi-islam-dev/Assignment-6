@@ -8,7 +8,7 @@
     "tag": "Popular",
     "tagType": "popular",
     "features": ["Unlimited AI generations", "SEO optimization tools", "Custom brand voice"],
-    "icon": "fas fa-robot"
+    "icon": "/public/icons/writing_2327400 1.png"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "tag": "Best Seller",
     "tagType": "best-seller",
     "features": ["500+ templates", "Figma & PSD formats", "Commercial use license"],
-    "icon": "fas fa-pen-nib"
+    "icon": "/public/icons/design-tool.png"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "tag": "New",
     "tagType": "new",
     "features": ["10k+ new assets monthly", "Royalty-free license", "4K video downloads"],
-    "icon": "fas fa-images"
+    "icon": "/public/icons/shopping-cart.png"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "tag": "Popular",
     "tagType": "popular",
     "features": ["100+ automation flows", "Zapier integration", "Step-by-step tutorials"],
-    "icon": "fas fa-cogs"
+    "icon": "/public/icons/operation.png"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "tag": "New",
     "tagType": "new",
     "features": ["ATS-friendly templates", "AI bullet point writer", "Export to PDF & Word"],
-    "icon": "fas fa-file-alt"
+    "icon": "/public/icons/portfolio.png"
   },
   {
     "id": 6,
@@ -63,6 +63,6 @@
     "tag": "Best Seller",
     "tagType": "best-seller",
     "features": ["30-day content calendar", "Caption writing guides", "Ready-to-post graphics"],
-    "icon": "fas fa-share-alt"
+    "icon": "/public/icons/social-media.png"
   }
 ]
