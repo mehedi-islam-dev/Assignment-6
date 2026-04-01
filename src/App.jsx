@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Navbar from './components/Navbar';
-
+import Banner from './components/Banner';
+import Stats from './components/Stats';
 function App() {
-  // State for our cart (starts empty)
   const [cart, setCart] = useState([]);
 
   return (
@@ -10,9 +10,8 @@ function App() {
       <Navbar cartCount={cart.length} />
       
       <main>
-        <div className="text-center py-20">
-          <h1 className="text-3xl text-gray-500">Navbar is loaded perfectly!</h1>
-        </div>
+        <Banner />
+        <Stats />
       </main>
     </div>
   );
